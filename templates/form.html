@@ -75,44 +75,44 @@
         <form action="/recommend" method="POST">
             <div class="radio-group">
                 <label>Is your problem classification?</label>
-                <input type="radio" name="classification" value="True">True
-                <input type="radio" name="classification" value="False">False
+                <input type="radio" name="classification" value="True" required>True
+                <input type="radio" name="classification" value="False" required>False
             </div>
 
             <div class="radio-group">
                 <label>Is your problem regression?</label>
-                <input type="radio" name="regression" value="True">True
-                <input type="radio" name="regression" value="False">False
+                <input type="radio" name="regression" value="True" required>True
+                <input type="radio" name="regression" value="False" required>False
             </div>
 
             <div class="radio-group">
                 <label>Is your problem clustering?</label>
-                <input type="radio" name="clustering" value="True">True
-                <input type="radio" name="clustering" value="False">False
+                <input type="radio" name="clustering" value="True" required>True
+                <input type="radio" name="clustering" value="False"required>False
             </div>
 
             <div class="radio-group">
                 <label>Is your dataset large (over 100,000 rows)?</label>
-                <input type="radio" name="large_dataset" value="True">True
-                <input type="radio" name="large_dataset" value="False">False
+                <input type="radio" name="large_dataset" value="True" required>True
+                <input type="radio" name="large_dataset" value="False" required>False
             </div>
 
             <div class="radio-group">
                 <label>Is interpretability important?</label>
-                <input type="radio" name="interpretability" value="True">True
-                <input type="radio" name="interpretability" value="False">False
+                <input type="radio" name="interpretability" value="True" required>True
+                <input type="radio" name="interpretability" value="False" required>False
             </div>
 
             <div class="radio-group">
                 <label>Does your dataset contain categorical data?</label>
-                <input type="radio" name="categorical_data" value="True">True
-                <input type="radio" name="categorical_data" value="False">False
+                <input type="radio" name="categorical_data" value="True" required>True
+                <input type="radio" name="categorical_data" value="False" required>False
             </div>
 
             <div class="radio-group">
                 <label>Is real-time prediction important?</label>
-                <input type="radio" name="real_time" value="True">True
-                <input type="radio" name="real_time" value="False">False
+                <input type="radio" name="real_time" value="True" required>True
+                <input type="radio" name="real_time" value="False" required>False
             </div>
 
             <button type="submit">Submit</button>
